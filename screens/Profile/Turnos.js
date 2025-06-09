@@ -5,8 +5,8 @@ export default function Turnos() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tus Turnos</Text>
-      <Image source={require('../../assets/turnos.png')} style={styles.image} />
-      <Button title="Actualizar" onPress={() => {}} />
+      <Button title="Actualizar" />
+      <Button title="Volver a la home" onPress={() => navigation.navigate('MiPerfil')} />
     </View>
   );
 }
